@@ -1,9 +1,9 @@
 import { Text, View, StyleSheet } from "react-native";
 
-export default function Index() {
+export default function AboutScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Home</Text>
+      <Text style={styles.text}>About</Text>
     </View>
   );
 }
@@ -16,11 +16,6 @@ const styles = StyleSheet.create({
     backgroundColor: "#000",
   }, 
   text:{
-    color: "#fff",
-  },
-  button:{
-    fontSize: 20,
-    textDecorationLine: "underline",
     color: "#fff",
   }
 });
